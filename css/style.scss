@@ -4,6 +4,15 @@ body{
     font-family: 'Muli', sans-serif;
 }
 
+.newbutton{ //Because I had previously kept the a tag outside the button tag
+    text-decoration: none !important;
+    color: white;
+}
+
+.newbutton:hover{
+    color: white;
+}
+
 .leftcol{
     background-color: lavender;
     margin: 10px;

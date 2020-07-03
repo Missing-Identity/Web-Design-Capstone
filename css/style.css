@@ -1,13 +1,6 @@
 body {
   font-family: 'Muli', sans-serif; }
 
-.newbutton {
-  text-decoration: none !important;
-  color: white; }
-
-.newbutton:hover {
-  color: white; }
-
 .leftcol {
   background-color: lavender;
   margin: 10px;

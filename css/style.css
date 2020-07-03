@@ -1,0 +1,96 @@
+body {
+  font-family: 'Muli', sans-serif; }
+
+.leftcol {
+  background-color: lavender;
+  margin: 10px;
+  height: 290px;
+  margin-left: 100px;
+  margin-top: 210px;
+  text-align: center;
+  border-radius: 25px;
+  transition: background-color 0.6s, height 0.6s, margin 0.6s; }
+  .leftcol img {
+    width: 200px;
+    height: 210px;
+    margin-right: 20px; }
+  .leftcol ul {
+    margin-right: 30px;
+    display: none; }
+  .leftcol a {
+    text-decoration: none !important; }
+  .leftcol a button {
+    display: none; }
+  .leftcol h1 {
+    padding-top: 10px; }
+
+.rightcol {
+  background-color: lavender;
+  margin: 10px;
+  height: 290px;
+  margin-top: 210px;
+  text-align: center;
+  border-radius: 25px;
+  transition: background-color 0.6s, height 0.6s, margin 0.6s; }
+  .rightcol img {
+    width: 210px;
+    height: 225px;
+    margin-right: 20px; }
+  .rightcol ul {
+    margin-right: 30px;
+    display: none; }
+  .rightcol a {
+    text-decoration: none !important; }
+  .rightcol a button {
+    display: none; }
+  .rightcol h1 {
+    padding-top: 10px; }
+
+.leftcol:hover {
+  background-color: orange;
+  height: 470px;
+  margin-top: 145px; }
+  .leftcol:hover a {
+    color: white !important; }
+  .leftcol:hover h1 {
+    color: yellow !important; }
+  .leftcol:hover ul {
+    display: block;
+    color: white; }
+  .leftcol:hover button {
+    display: inline-block; }
+
+.rightcol:hover {
+  background-color: orange;
+  height: 465px;
+  margin-top: 145px; }
+  .rightcol:hover a {
+    color: white !important; }
+  .rightcol:hover h1 {
+    color: yellow !important; }
+  .rightcol:hover ul {
+    display: block;
+    color: white; }
+  .rightcol:hover button {
+    display: inline-block; }
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-size: cover !important; }
+  .leftcol {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px; }
+  .leftcol:hover {
+    margin-top: 0px;
+    margin-bottom: 10px; }
+  .rightcol {
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  .rightcol:hover {
+    margin-top: 0px; }
+  .cancelbtn {
+    display: inline; }
+  .submitbtn {
+    display: inline; } }

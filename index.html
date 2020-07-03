@@ -1,8 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <body>
-            
-        </body>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <style type="text/css">
+            body { background-image: url("https://images5.alphacoders.com/432/432692.jpg"); background-size: stretch; background-repeat: no-repeat !important; }
+        </style>
+
+        <title>Login/Sign-Up</title>
     </head>
+
+    <body>
+        <p style="color: white;">Please click on the login button from the menu to be redirected to the respective portal.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-5 leftcol align-self-center">
+                    <h1 class="studentlogin">Login as Student</h1>
+                    <a data-toggle="modal" data-target=".studentloginmodal"><img src="http://icons.iconarchive.com/icons/webalys/kameleon.pics/256/Student-3-icon.png"></a>
+                    <ul>
+                        <li>Add attendance</li>
+                        <li>Review Time Table</li>
+                        <li>Review marks</li>
+                        <li>Review courses applied for</li>
+                        <li>Give teacher feedback</li>
+                    </ul>
+                    <a data-toggle="modal" data-target=".studentloginmodal"><button type="button" class="btn btn-primary btn-lg ml-auto">Login</button></a>
+                </div>
+                <div class="col-xs-12 col-md-5 rightcol align-self-center">
+                    <h1 class="teacherlogin">Login as Teacher</h1>
+                    <a data-toggle="modal" data-target=".teacherloginmodal"><img src="https://image.flaticon.com/icons/svg/206/206897.svg"></a>
+                    <ul>
+                        <li>Review which class to take</li>
+                        <li>Add or Remove students from your class</li>
+                        <li>Review Student attendance</li>
+                        <li>Warn students if marks are low</li>
+                    </ul>
+                    <a data-toggle="modal" data-target=".teacherloginmodal"><button type="button" class="btn btn-primary btn-lg ml-auto">Login</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade studentloginmodal" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header bg-warning text-whiten">
+                        <h4 class="modal-title">Student Login(Dummy)</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-5">
+                                    <input type="text" class="form-control form-control-sm mr-1" id="Stuname" placeholder="Enter Name...">
+                                </div>
+                                <div class="form-group col-sm-5">
+                                    <input type="password" class="form-control form-control-sm mr-1" id="Stupass" placeholder="Enter Password...">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6 cancel/loginbtn">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto col-4" data-dismiss="modal">Cancel</button>
+                                    <a href="student.html"><button type="button" class="btn btn-primary btn-sm ml-auto col-4">Login</button></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade teacherloginmodal" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <!-- Modal Content -->
+                <div class="modal-content">
+                    <div class="modal-header bg-warning text-white">
+                        <h4 class="modal-title">Teacher Login(Dummy)</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-5">
+                                    <input type="text" class="form-control form-control-sm mr-1" id="Teaname" placeholder="Enter Name...">
+                                </div>
+                                <div class="form-group col-sm-5">
+                                    <input type="password" class="form-control form-control-sm mr-1" id="Teapass" placeholder="Enter Password...">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6 cancel/loginbtn">
+                                    <a href="teacherprofile.html"><button type="button" class="btn btn-secondary btn-sm ml-auto col-4">Sign-up</button></a>
+                                    <a href="teacher.html"><button type="button" class="btn btn-primary btn-sm ml-auto col-4">Login</button></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- jquery and bootstrap scripts added here. -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
 </html>

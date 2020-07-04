@@ -1,2 +1,43 @@
+.jumbotron {
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
+  height: 270px; }
+  .jumbotron .jumbocont {
+    background-color: rgba(72, 169, 167, 0.7);
+    border-radius: 25px;
+    height: 120px; }
+  .jumbotron h1 {
+    color: white !important; }
+  .jumbotron p {
+    color: yellow !important;
+    font-weight: 600; }
+
 table .thead-color {
-  background-color: darkslategray; }
+  background-color: #f5b731; }
+
+table td {
+  text-align: center; }
+
+table th {
+  text-align: center; }
+
+table .odd {
+  background-color: #ede218 !important; }
+
+table .even {
+  background-color: #d11d1d; }
+
+table .even:hover {
+  background-color: #992b06;
+  color: white; }
+
+table .odd:hover {
+  background-color: #bfb204 !important;
+  color: white; }
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 400px;
+  overflow: auto; }
+
+.table-wrapper-scroll-y {
+  display: block; }

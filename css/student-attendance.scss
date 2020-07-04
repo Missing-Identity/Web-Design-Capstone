@@ -1,5 +1,52 @@
-table{
-    .thead-color{
-        background-color: darkslategray;
+.jumbotron{
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
+    height: 270px;
+    .jumbocont{
+        background-color: rgba(72,169,167, 0.7);
+        border-radius: 25px;
+        height: 120px;
+    }
+    h1{
+        color: white !important;
+    }
+    p{
+        color: yellow !important;
+        font-weight: 600;
     }
 }
+
+table{
+    .thead-color{
+        background-color: rgb(245,183,49);
+    }
+    td{
+        text-align: center;
+    }
+    th{
+        text-align: center;
+    }
+            .odd{
+                background-color: rgb(237, 226, 24) !important;
+            }
+            .even{
+                background-color: rgb(209, 29, 29);
+            }
+            .even:hover{
+                background-color: rgb(153, 43, 6);
+                color: white;
+            }
+            .odd:hover{
+                background-color: rgb(191, 178, 4) !important;
+                color: white;
+            }
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+

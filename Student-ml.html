@@ -1,0 +1,182 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/student-ml.css">
+        <link href="https://fonts.googleapis.com/css2?family=Muli:wght@700&display=swap" rel="stylesheet">
+        <style type="text/css">
+            body { background-image: url("https://www.secureaplus.com/wp-content/uploads/2016/04/SecureAPlus-For-Education-Background.png"); background-size: stretch; background-repeat: no-repeat !important; }
+        </style>
+
+        <title>Student Attendance</title>
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-dark navbar-expand-sm fixed-top"><!-- Similar processes have been used here like the other 2 review pages. -->
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><!-- data-target sets up a target for the button -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="index.html"><img src="https://cdn.pixabay.com/photo/2017/01/31/23/42/animal-2028258_960_720.png" height="31" width="41"></a><!-- the brand will display the brand name prominently on the navbar. # returns to index page-->
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto"><!-- mr-auto is used to specify the right margin(means content will be pushed as left as possible)-->
+                    <li class="nav-item hometab"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span>Login</a></li><!-- nav-items allows the list content to be displayed as links horizonatally in the nav-bar-->
+                    <li class="nav-item markstab"><a class="nav-link" href="student-attendance.html"><span class="fa fa-info fa-lg"></span>Review Attendance</a></li><!-- the active class explicitly identifies one link as active link. Here on the Home page, Home is activated.-->
+                    <li class="nav-item facultytab"><a class="nav-link" href="faculty.html"><span class="fa fa-gamepad fa-lg"></span>View Faculty</a></li>
+                    <li class="nav-item coursestab"><a class="nav-link" href="courses.html"><span class="fa fa-puzzle-piece fa-lg"></span>Check Courses</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <header class="jumbotron">
+
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-md-6 col-sm-6 align-self-center mt-3 jumbocont">
+                        <h1>Student Marks-List</h1><!-- Main jumbotron header -->
+                        <a href="student.html"><button type="button" class="btn btn-warning btn-lg">Back to Student Portal</button></a>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+      <div class="container">
+        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+        <table class="table table-striped">
+            <thead class="thead-color">
+              <tr>
+                <th scope="col">S.No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Maths</th>
+                <th scope="col">Java</th>
+                <th scope="col">BEEE</th>
+                <th scope="col">Chemistry</th>
+                <th scope="col">English</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="odd">
+                <th scope="row">1</th>
+                <td>Unmilan Mukherjee</td>
+                <td>20/50</td>
+                <td>45/50</td>
+                <td>30/50</td>
+                <td>40/50</td>
+                <td>50/50</td>
+              </tr>
+              <tr class="even">
+                <th scope="row">2</th>
+                <td>Akhil Yeramelli</td>
+                <td>40/50</td>
+                <td>42/50</td>
+                <td>50/50</td>
+                <td>49/50</td>
+                <td>50/50</td>
+              </tr>
+              <tr class="odd">
+                <th scope="row">3</th>
+                <td>Adithya Rajesh</td>
+                <td>50/50</td>
+                <td>23/50</td>
+                <td>44/50</td>
+                <td>32/50</td>
+                <td>40/50</td>
+              </tr>
+              <tr class="even">
+                <th scope="row">4</th>
+                <td>Joel Praneeth</td>
+                <td>50/50</td>
+                <td>20/50</td>
+                <td>44/50</td>
+                <td>39/50</td>
+                <td>43/50</td>
+              </tr>
+              <tr class="odd">
+                <th scope="row">5</th>
+                <td>Bhanu Prabath Alapati</td>
+                <td>50/50</td>
+                <td>45/50</td>
+                <td>50/50</td>
+                <td>49/50</td>
+                <td>10/50</td>
+              </tr>
+              <tr class="even">
+                <th scope="row">6</th>
+                <td>Vishnu Kirit</td>
+                <td>30/50</td>
+                <td>34/50</td>
+                <td>45/50</td>
+                <td>37/50</td>
+                <td>18/50</td>
+              </tr>
+              <tr class="odd">
+                <th scope="row">7</th>
+                <td>Sri Paada</td>
+                <td>50/50</td>
+                <td>21/50</td>
+                <td>20/50</td>
+                <td>47/50</td>
+                <td>36/50</td>
+              </tr>
+              <tr class="even">
+                <th scope="row">8</th>
+                <td>Sesha Sayee</td>
+                <td>37/50</td>
+                <td>35/50</td>
+                <td>50/50</td>
+                <td>29/50</td>
+                <td>19/50</td>
+              </tr>
+              <tr class="odd">
+                <th scope="row">9</th>
+                <td>Tanay Jayanti</td>
+                <td>50/50</td>
+                <td>41/50</td>
+                <td>48/50</td>
+                <td>46/50</td>
+                <td>50/50</td>
+              </tr>
+              <tr class="even">
+                <th scope="row">10</th>
+                <td>Aashish Sharma</td>
+                <td>50/50</td>
+                <td>40/50</td>
+                <td>34/50</td>
+                <td>50/50</td>
+                <td>50/50</td>
+              </tr>
+              <tr class="odd">
+                <th scope="row">11</th>
+                <td>Praneeth Reddy</td>
+                <td>40/50</td>
+                <td>42/50</td>
+                <td>30/50</td>
+                <td>29/50</td>
+                <td>23/50</td>
+              </tr>
+              <tr class="even">
+                <th scope="row">12</th>
+                <td>V Vamsi</td>
+                <td>39/50</td>
+                <td>15/50</td>
+                <td>11/50</td>
+                <td>30/50</td>
+                <td>5/50</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><!-- jquery and bootstrap scripts added here. -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

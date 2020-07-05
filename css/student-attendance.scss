@@ -1,6 +1,20 @@
+.navbar-dark{
+    background-image: linear-gradient(rgb(245, 242, 235), rgb(72,169,167));
+    border-bottom: 1px inset gray;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar .nav-link{
+    color: rgb(84, 57, 2) !important;
+}
+
+.navbar .nav-link:hover{
+    color: white !important;
+}
+
 .jumbotron{
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
-    height: 270px;
+    height: 230px;
     .jumbocont{
         background-color: rgba(72,169,167, 0.7);
         border-radius: 25px;
@@ -53,7 +67,8 @@ table{
 @media only screen and (max-width: 650px){
 
     .jumbotron{
-        height: 250px;
+        margin-top: 15px;
+        height: 220px;
         .jumbocont{
             height: 160px;
         }

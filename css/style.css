@@ -80,16 +80,19 @@ body {
   .leftcol {
     margin: 0px;
     margin-bottom: 10px;
-    margin-top: 20px; }
+    margin-top: 40px; }
   .leftcol:hover {
-    margin-top: 0px;
-    margin-bottom: 10px; }
+    margin-top: 10px;
+    margin-bottom: 0px; }
+    .leftcol:hover .rightcol {
+      margin-top: 0px; }
   .rightcol {
     margin: 0px;
-    margin-top: 40px;
-    margin-bottom: 20px; }
+    margin-top: 55px;
+    margin-bottom: 50px; }
   .rightcol:hover {
-    margin-top: 0px; }
+    margin-top: 0px;
+    margin-bottom: 10px; }
   .cancelbtn {
     display: inline; }
   .submitbtn {

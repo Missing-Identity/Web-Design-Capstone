@@ -23,7 +23,8 @@
     font-weight: 600; }
 
 table .thead-color {
-  background-color: #f5b731; }
+  background-color: #f5b731;
+  color: white; }
 
 table td {
   text-align: center; }
@@ -47,10 +48,10 @@ table .odd:hover {
 
 @media only screen and (max-width: 650px) {
   .jumbotron {
-    margin-top: 15px;
-    height: 220px; }
+    margin-top: 35px;
+    height: 190px; }
     .jumbotron .jumbocont {
-      height: 130px; }
+      height: 120px; }
   .my-custom-scrollbar {
     position: relative;
     height: 27em;

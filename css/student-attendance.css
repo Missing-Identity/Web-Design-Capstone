@@ -23,7 +23,8 @@
     font-weight: 600; }
 
 table .thead-color {
-  background-color: #f5b731; }
+  background-color: #f5b731;
+  color: white; }
 
 table td {
   text-align: center; }

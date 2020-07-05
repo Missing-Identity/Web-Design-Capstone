@@ -1,0 +1,78 @@
+.navbar-dark{
+    background-image: linear-gradient(rgb(253,247,51), rgb(128, 0, 0));
+    border-bottom: 1px inset gray;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar .nav-link{
+    color: rgb(54, 37, 1) !important;
+}
+
+.navbar .nav-link:hover{
+    color: white !important;
+}
+
+.jumbotron{
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/75/55/bookshelve-with-books-background-library-vector-20657555.jpg");
+    height: 230px;
+    .jumbocont{
+        background-color: rgba(128, 0, 0,0.6);
+        border-radius: 25px;
+        height: 120px;
+    }
+    h1{
+        color: white !important;
+    }
+    p{
+        color: yellow !important;
+        font-weight: 600;
+    }
+}
+
+table{
+    .thead-color{
+        background-image: url("https://www.rarewoodsusa.com/wp-content/uploads/2018/08/mahogany-brazil-1000x500.jpg");
+        color: white;
+    }
+    td{
+        text-align: center;
+        color: white;
+    }
+    th{
+        text-align: center;
+        color: white;
+    }
+            .odd{
+                background-image: url("https://image.shutterstock.com/image-photo/green-texture-paper-backgrounds-260nw-1056132605.jpg") !important;
+                background-size: cover;
+            }
+            .even{
+                background-image: url("https://image.shutterstock.com/image-photo/green-texture-paper-backgrounds-260nw-1056132605.jpg") !important;
+                background-size: cover;
+            }
+            .even:hover{
+                background-image: url("https://media.istockphoto.com/photos/green-board-chalkboard-texture-picture-id615618332?k=6&m=615618332&s=612x612&w=0&h=tdhAXfLcRGVwVJGmHDtKGLIjyRCh3w3EUFbSopn4BrA=") !important;
+            }
+            .odd:hover{
+                background-image: url("https://media.istockphoto.com/photos/green-board-chalkboard-texture-picture-id615618332?k=6&m=615618332&s=612x612&w=0&h=tdhAXfLcRGVwVJGmHDtKGLIjyRCh3w3EUFbSopn4BrA=") !important;
+            }
+}
+
+@media only screen and (max-width: 650px){
+
+    .jumbotron{
+        margin-top: 35px;
+        height: 190px;
+        .jumbocont{
+            height: 120px;
+        }
+    }
+    .my-custom-scrollbar {
+        position: relative;
+        height: 27em;
+        overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+        display: block;
+    }
+}

@@ -1,0 +1,267 @@
+.navbar-dark{
+    background-image: linear-gradient(rgb(245, 242, 235), rgb(72,169,167));
+    border-bottom: 1px inset gray;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar .nav-link{
+    color: rgb(84, 57, 2) !important;
+}
+
+.navbar .nav-link:hover{
+    color: white !important;
+}
+
+.jumbotron{
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
+    height: 260px;
+    .jumbocont{
+        background-color: rgba(71,169,175,0.8);
+        border-radius: 25px;
+        height: 160px;
+    }
+    h1{
+        color: white !important;
+    }
+    p{
+        color: yellow !important;
+        font-weight: 600;
+    }
+}
+
+summary{
+    font-weight: 700;
+    color: black
+}
+
+.FirstT{
+    img{
+        background-color: grey;
+        border-radius: 50%;
+        height: 245px;
+        width: 225px;
+    }
+    h2{
+        color: red;
+        margin-left: 10px;
+    }
+}
+
+.FirstT2{
+    padding: 4%;
+    background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+    border-radius: 25px;
+    margin-bottom: 15px;
+    img{
+        width: 17%;
+        margin-left: 40%;
+    }
+    .content{
+        background-color: rgba(249,194,50,0.9);
+        padding: 20px;
+        border-radius: 20px;
+        h2{
+            color: whitesmoke;
+            line-height: 45px;
+        }
+        h4{
+            color: rgb(151,56,138);
+            line-height: 45px;
+        }
+    }
+}
+
+.SecondT{
+    img{
+        background-color: grey;
+        border-radius: 50%;
+        height: 245px;
+        width: 225px;
+    }
+    h2{
+        color: red;
+    }
+}
+
+.SecondT2{
+    padding: 4%;
+    background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+    border-radius: 25px;
+    margin-bottom: 15px;
+    img{
+        width: 17%;
+        margin-left: 40%;
+    }
+    .content{
+        background-color: rgba(249,194,50,0.9);
+        padding: 20px;
+        border-radius: 20px;
+        h2{
+            color: whitesmoke;
+            line-height: 45px;
+        }
+        h4{
+            color: rgb(151,56,138);
+            line-height: 45px;
+        }
+    }
+}
+
+.ThirdT{
+    img{
+        background-color: grey;
+        border-radius: 50%;
+        height: 245px;
+        width: 225px;
+    }
+    h2{
+        color: red;
+        margin-left: 15px;
+    }
+}
+
+.ThirdT2{
+    padding: 4%;
+    background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+    border-radius: 25px;
+    margin-bottom: 15px;
+    img{
+        width: 17%;
+        margin-left: 40%;
+    }
+    .content{
+        background-color: rgba(249,194,50,0.9);
+        padding: 20px;
+        border-radius: 20px;
+        h2{
+            color: whitesmoke;
+            line-height: 45px;
+        }
+        h4{
+            color: rgb(151,56,138);
+            line-height: 45px;
+        }
+    }
+}
+
+.FourthT{
+    img{
+        background-color: grey;
+        border-radius: 50%;
+        height: 245px;
+        width: 225px;
+    }
+    h2{
+        color: red;
+        margin-left: 20px;
+    }
+}
+
+.FourthT2{
+    padding: 4%;
+    background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+    border-radius: 25px;
+    margin-bottom: 15px;
+    img{
+        width: 17%;
+        margin-left: 40%;
+    }
+    .content{
+        background-color: rgba(249,194,50,0.9);
+        padding: 20px;
+        border-radius: 20px;
+        h2{
+            color: whitesmoke;
+            line-height: 45px;
+        }
+        h4{
+            color: rgb(151,56,138);
+            line-height: 45px;
+        }
+    }
+}
+
+.FifthT{
+    img{
+        background-color: grey;
+        border-radius: 50%;
+        height: 245px;
+        width: 225px;
+    }
+    h2{
+        color: red;
+        margin-left: 30px;
+    }
+}
+
+.FifthT2{
+    padding: 4%;
+    background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+    border-radius: 25px;
+    margin-bottom: 15px;
+    img{
+        width: 17%;
+        margin-left: 40%;
+    }
+    .content{
+        background-color: rgba(249,194,50,0.9);
+        padding: 20px;
+        border-radius: 20px;
+        h2{
+            color: whitesmoke;
+            line-height: 45px;
+        }
+        h4{
+            color: rgb(151,56,138);
+            line-height: 45px;
+        }
+    }
+}
+.row{
+    margin-bottom: 15px;
+    border-bottom: 3px solid white;
+}
+@media only screen and (max-width: 650px){
+
+    body{
+        background-image: stretch !important;
+        background-repeat: repeat !important;
+    }
+
+    .jumbotron{
+        margin-top: 35px;
+        height: 220px;
+        .jumbocont{
+            height: 155px;
+        }
+    }
+    .my-custom-scrollbar {
+        position: relative;
+        height: 27em;
+        overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+        display: block;
+    }
+    .FirstT{
+        h2{
+            margin-left: 21%;
+        }
+        img{
+            margin-left: 20%;
+        }
+    }
+    .FirstT2{
+        h2{
+            border-radius: 15px 15px 15px 15px;
+        }
+    }
+    .SecondT{
+        h2{
+            margin-left: 19%;
+        }
+        img{
+            margin-left: 20%;
+        }
+    }
+}

@@ -1,0 +1,201 @@
+.navbar-dark {
+  background-image: linear-gradient(#f5f2eb, #48a9a7);
+  border-bottom: 1px inset gray;
+  font-family: 'Muli', sans-serif; }
+
+.navbar .nav-link {
+  color: #543902 !important; }
+
+.navbar .nav-link:hover {
+  color: white !important; }
+
+.jumbotron {
+  background-image: url("https://cdn4.vectorstock.com/i/1000x1000/45/13/education-background-vector-10664513.jpg");
+  height: 260px; }
+  .jumbotron .jumbocont {
+    background-color: rgba(71, 169, 175, 0.8);
+    border-radius: 25px;
+    height: 160px; }
+  .jumbotron h1 {
+    color: white !important; }
+  .jumbotron p {
+    color: yellow !important;
+    font-weight: 600; }
+
+summary {
+  font-weight: 700;
+  color: black; }
+
+.FirstT img {
+  background-color: grey;
+  border-radius: 50%;
+  height: 245px;
+  width: 225px; }
+
+.FirstT h2 {
+  color: red;
+  margin-left: 10px; }
+
+.FirstT2 {
+  padding: 4%;
+  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+  border-radius: 25px;
+  margin-bottom: 15px; }
+  .FirstT2 img {
+    width: 17%;
+    margin-left: 40%; }
+  .FirstT2 .content {
+    background-color: rgba(249, 194, 50, 0.9);
+    padding: 20px;
+    border-radius: 20px; }
+    .FirstT2 .content h2 {
+      color: whitesmoke;
+      line-height: 45px; }
+    .FirstT2 .content h4 {
+      color: #97388a;
+      line-height: 45px; }
+
+.SecondT img {
+  background-color: grey;
+  border-radius: 50%;
+  height: 245px;
+  width: 225px; }
+
+.SecondT h2 {
+  color: red; }
+
+.SecondT2 {
+  padding: 4%;
+  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+  border-radius: 25px;
+  margin-bottom: 15px; }
+  .SecondT2 img {
+    width: 17%;
+    margin-left: 40%; }
+  .SecondT2 .content {
+    background-color: rgba(249, 194, 50, 0.9);
+    padding: 20px;
+    border-radius: 20px; }
+    .SecondT2 .content h2 {
+      color: whitesmoke;
+      line-height: 45px; }
+    .SecondT2 .content h4 {
+      color: #97388a;
+      line-height: 45px; }
+
+.ThirdT img {
+  background-color: grey;
+  border-radius: 50%;
+  height: 245px;
+  width: 225px; }
+
+.ThirdT h2 {
+  color: red;
+  margin-left: 15px; }
+
+.ThirdT2 {
+  padding: 4%;
+  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+  border-radius: 25px;
+  margin-bottom: 15px; }
+  .ThirdT2 img {
+    width: 17%;
+    margin-left: 40%; }
+  .ThirdT2 .content {
+    background-color: rgba(249, 194, 50, 0.9);
+    padding: 20px;
+    border-radius: 20px; }
+    .ThirdT2 .content h2 {
+      color: whitesmoke;
+      line-height: 45px; }
+    .ThirdT2 .content h4 {
+      color: #97388a;
+      line-height: 45px; }
+
+.FourthT img {
+  background-color: grey;
+  border-radius: 50%;
+  height: 245px;
+  width: 225px; }
+
+.FourthT h2 {
+  color: red;
+  margin-left: 20px; }
+
+.FourthT2 {
+  padding: 4%;
+  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+  border-radius: 25px;
+  margin-bottom: 15px; }
+  .FourthT2 img {
+    width: 17%;
+    margin-left: 40%; }
+  .FourthT2 .content {
+    background-color: rgba(249, 194, 50, 0.9);
+    padding: 20px;
+    border-radius: 20px; }
+    .FourthT2 .content h2 {
+      color: whitesmoke;
+      line-height: 45px; }
+    .FourthT2 .content h4 {
+      color: #97388a;
+      line-height: 45px; }
+
+.FifthT img {
+  background-color: grey;
+  border-radius: 50%;
+  height: 245px;
+  width: 225px; }
+
+.FifthT h2 {
+  color: red;
+  margin-left: 30px; }
+
+.FifthT2 {
+  padding: 4%;
+  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+  border-radius: 25px;
+  margin-bottom: 15px; }
+  .FifthT2 img {
+    width: 17%;
+    margin-left: 40%; }
+  .FifthT2 .content {
+    background-color: rgba(249, 194, 50, 0.9);
+    padding: 20px;
+    border-radius: 20px; }
+    .FifthT2 .content h2 {
+      color: whitesmoke;
+      line-height: 45px; }
+    .FifthT2 .content h4 {
+      color: #97388a;
+      line-height: 45px; }
+
+.row {
+  margin-bottom: 15px;
+  border-bottom: 3px solid white; }
+
+@media only screen and (max-width: 650px) {
+  body {
+    background-image: stretch !important;
+    background-repeat: repeat !important; }
+  .jumbotron {
+    margin-top: 35px;
+    height: 220px; }
+    .jumbotron .jumbocont {
+      height: 155px; }
+  .my-custom-scrollbar {
+    position: relative;
+    height: 27em;
+    overflow: auto; }
+  .table-wrapper-scroll-y {
+    display: block; }
+  .FirstT h2 {
+    margin-left: 21%; }
+  .FirstT img {
+    margin-left: 20%; }
+  .FirstT2 h2 {
+    border-radius: 15px 15px 15px 15px; }
+  .SecondT h2 {
+    margin-left: 19%; }
+  .SecondT img {
+    margin-left: 20%; } }

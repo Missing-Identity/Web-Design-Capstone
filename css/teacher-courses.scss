@@ -258,6 +258,28 @@
     background-image: url("https://images.unsplash.com/photo-1506968430777-bf7784a87f23?ixlib=rb-1.2.1&w=1000&q=80");
 }
 
+footer{
+    background-image: url("https://www.rarewoodsusa.com/wp-content/uploads/2018/08/mahogany-brazil-1000x500.jpg");
+    color: white;
+    padding: 10px;
+    a{
+        margin: 20px;
+        text-decoration: none !important;
+        .gh{
+            color: black;
+        }
+        .fb{
+            color: darkblue;
+        }
+        .gh:hover{
+            color: rgb(67,57,191);
+        }
+        .fb:hover{
+            color: white;
+        }
+    }
+}
+
 @media only screen and (max-width: 650px){
     .jumbotron{
         margin-top: 35px;

@@ -287,6 +287,28 @@
     border-radius: 20px 20px 0px 0px;
 }
 
+footer{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Download-Free-Funky-Wallpaper.jpg");
+    color: white;
+    padding: 10px;
+    a{
+        margin: 20px;
+        text-decoration: none !important;
+        .gh{
+            color: black;
+        }
+        .fb{
+            color: darkblue;
+        }
+        .gh:hover{
+            color: rgb(67,57,191);
+        }
+        .fb:hover{
+            color: white;
+        }
+    }
+}
+
 @media only screen and (max-width: 650px){
     .jumbotron{
         margin-top: 35px;

@@ -1,0 +1,297 @@
+.navbar-dark {
+  background-image: linear-gradient(#fdf733, maroon);
+  border-bottom: 1px inset gray;
+  font-family: 'Muli', sans-serif; }
+
+.navbar .nav-link {
+  color: #362501 !important; }
+
+.navbar .nav-link:hover {
+  color: white !important; }
+
+.jumbotron {
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/75/55/bookshelve-with-books-background-library-vector-20657555.jpg");
+  height: 260px; }
+  .jumbotron .jumbocont {
+    background-color: rgba(128, 0, 0, 0.6);
+    border-radius: 25px;
+    height: 160px; }
+  .jumbotron h1 {
+    color: white !important; }
+  .jumbotron p {
+    color: yellow !important;
+    font-weight: 600; }
+
+.leftcol1 {
+  margin-top: 20px;
+  margin-right: 95px;
+  background-color: white;
+  border-radius: 25px;
+  height: 300px;
+  color: black;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .leftcol1 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 105px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: height 0.5s, width 0.5s; }
+  .leftcol1 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.leftcol1:hover {
+  height: 335px;
+  background-color: black;
+  margin-top: 3px;
+  color: white; }
+  .leftcol1:hover img {
+    height: 245px;
+    width: 225px; }
+  .leftcol1:hover a {
+    text-decoration: none !important; }
+
+.rightcol1 {
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: white;
+  border-radius: 25px;
+  height: 300px;
+  color: black;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .rightcol1 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: height 0.5s, width 0.5s; }
+  .rightcol1 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .rightcol1 a {
+    text-decoration: none !important; }
+
+.rightcol1:hover {
+  height: 335px;
+  background-color: black;
+  margin-top: 3px;
+  color: white; }
+  .rightcol1:hover img {
+    height: 245px;
+    width: 225px; }
+  .rightcol1:hover button {
+    display: block; }
+
+.leftcol2 {
+  margin-top: 20px;
+  margin-right: 95px;
+  background-color: white;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  height: 300px;
+  color: black;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .leftcol2 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: height 0.5s, width 0.5s; }
+  .leftcol2 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .leftcol2 a {
+    text-decoration: none !important; }
+
+.leftcol2:hover {
+  height: 325px;
+  background-color: black;
+  margin-top: 5px;
+  color: white; }
+  .leftcol2:hover img {
+    height: 220px;
+    width: 225px; }
+  .leftcol2:hover button {
+    background-color: blue;
+    display: block;
+    margin-left: 175px;
+    justify-content: center;
+    border-radius: 25px; }
+
+.rightcol2 {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 25px;
+  height: 300px;
+  color: black;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .rightcol2 img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: height 0.5s, width 0.5s; }
+  .rightcol2 h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .rightcol2 a {
+    text-decoration: none !important; }
+
+.rightcol2:hover {
+  height: 335px;
+  background-color: black;
+  margin-top: 5px;
+  color: white; }
+  .rightcol2:hover img {
+    height: 245px;
+    width: 225px; }
+  .rightcol2:hover button {
+    display: block; }
+
+.lastcol {
+  margin-top: 20px;
+  margin-left: 320px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 25px;
+  height: 300px;
+  color: black;
+  transition: height 0.5s, background-color 0.5s, margin-top 0.5s; }
+  .lastcol img {
+    width: 220px;
+    height: 220px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: height 0.5s, width 0.5s; }
+  .lastcol h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .lastcol a {
+    text-decoration: none !important; }
+
+.lastcol:hover {
+  height: 335px;
+  background-color: black;
+  margin-top: 5px;
+  color: white; }
+  .lastcol:hover img {
+    height: 245px;
+    width: 225px; }
+  .lastcol:hover button {
+    display: block; }
+
+.modal {
+  margin-top: 15%; }
+
+.modal-content {
+  border-radius: 20px;
+  background-image: url("https://www.itl.cat/pngfile/big/104-1042826_funky-wallpaper-cool-simple-backgrounds.jpg"); }
+  .modal-content h2 {
+    color: yellow; }
+  .modal-content h4 {
+    color: white; }
+
+.modal-header {
+  border-radius: 20px 20px 0px 0px; }
+
+@media only screen and (max-width: 650px) {
+  .jumbotron {
+    margin-top: 35px;
+    height: 220px; }
+    .jumbotron .jumbocont {
+      height: 155px; }
+  .leftcol1 {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px; }
+    .leftcol1 img {
+      width: 250px;
+      height: 230px;
+      margin-left: 65px; }
+  .leftcol1:hover {
+    height: 318px; }
+    .leftcol1:hover img {
+      height: 240px;
+      width: 260px; }
+    .leftcol1:hover button {
+      margin-left: 140px; }
+  .rightcol1 {
+    margin-left: 0px; }
+    .rightcol1 img {
+      width: 250px;
+      height: 230px;
+      margin-left: 65px; }
+  .rightcol1:hover {
+    height: 318px; }
+    .rightcol1:hover img {
+      height: 240px;
+      width: 260px; }
+    .rightcol1:hover button {
+      margin-left: 150px; }
+  .leftcol2 {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px; }
+    .leftcol2 img {
+      width: 240px;
+      height: 230px;
+      margin-left: 70px; }
+  .leftcol2:hover {
+    height: 318px; }
+    .leftcol2:hover img {
+      height: 220px;
+      width: 240px; }
+    .leftcol2:hover button {
+      display: block;
+      margin-left: 140px; }
+  .rightcol2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 8px; }
+    .rightcol2 img {
+      width: 230px;
+      height: 230px;
+      margin-left: 75px;
+      margin-bottom: 10px; }
+  .rightcol2:hover {
+    height: 318px;
+    margin-bottom: 5px; }
+    .rightcol2:hover img {
+      height: 250px;
+      width: 230px; }
+    .rightcol2:hover button {
+      margin-left: 145px; }
+  .lastcol {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 8px; }
+    .lastcol img {
+      width: 230px;
+      height: 230px;
+      margin-left: 70px;
+      margin-bottom: 10px; }
+  .lastcol:hover {
+    height: 318px;
+    margin-bottom: 5px; }
+    .lastcol:hover img {
+      height: 250px;
+      width: 230px; }
+    .lastcol:hover button {
+      margin-left: 145px; } }

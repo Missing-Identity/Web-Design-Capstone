@@ -1,0 +1,382 @@
+.navbar-dark{
+    background-image: linear-gradient(rgb(253,247,51), rgb(128, 0, 0));
+    border-bottom: 1px inset gray;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar .nav-link{
+    color: rgb(54, 37, 1) !important;
+}
+
+.navbar .nav-link:hover{
+    color: white !important;
+}
+
+.jumbotron{
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/75/55/bookshelve-with-books-background-library-vector-20657555.jpg");
+    height: 260px;
+    .jumbocont{
+        background-color: rgba(128, 0, 0,0.6);
+        border-radius: 25px;
+        height: 160px;
+    }
+    h1{
+        color: white !important;
+    }
+    p{
+        color: yellow !important;
+        font-weight: 600;
+    }
+}
+
+.leftcol1{ 
+    margin-top: 20px;
+    margin-right: 95px;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    color: black;
+    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
+    img{
+        width: 220px;
+        height: 220px;
+        margin-left: 105px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        transition: height 0.5s, width 0.5s;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.leftcol1:hover{
+    height: 335px;
+    background-color: black;
+    margin-top: 3px;
+    color: white;
+    img{
+        height: 245px;
+        width: 225px;
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
+
+.rightcol1{
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    color: black;
+    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
+    img{
+        width: 220px;
+        height: 220px;
+        margin-left: 110px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        transition: height 0.5s, width 0.5s;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
+
+.rightcol1:hover{
+    height: 335px;
+    background-color: black;
+    margin-top: 3px;
+    color: white;
+    img{
+        height: 245px;
+        width: 225px;
+    }
+    button{
+        display: block;
+    }
+}
+
+.leftcol2{
+    margin-top: 20px;
+    margin-right: 95px;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    height: 300px;
+    color: black;
+    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
+    img{
+        width: 220px;
+        height: 220px;
+        margin-left: 110px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        transition: height 0.5s, width 0.5s;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
+
+.leftcol2:hover{
+    height: 325px;
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+    img{
+        height: 220px;
+        width: 225px;
+    }
+    button{
+        background-color: blue;
+        display: block;
+        margin-left: 175px;
+        justify-content: center;
+        border-radius: 25px;
+    }
+}
+
+.rightcol2{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    color: black;
+    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
+    img{
+        width: 220px;
+        height: 220px;
+        margin-left: 110px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        transition: height 0.5s, width 0.5s;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
+
+.rightcol2:hover{
+    height: 335px;
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+    img{
+        height: 245px;
+        width: 225px;
+    }
+    button{
+        display: block;
+    }
+}
+
+.lastcol{
+    margin-top: 20px;
+    margin-left: 320px;
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 25px;
+    height: 300px;
+    color: black;
+    transition: height 0.5s, background-color 0.5s, margin-top 0.5s;
+    img{
+        width: 220px;
+        height: 220px;
+        margin-left: 110px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 50%;
+        transition: height 0.5s, width 0.5s;
+    }
+    h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none !important;
+    }
+}
+
+.lastcol:hover{
+    height: 335px;
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+    img{
+        height: 245px;
+        width: 225px;
+    }
+    button{
+        display: block;
+    }
+}
+
+.modal{
+    margin-top: 15%;
+}
+
+.modal-content{
+    border-radius: 20px;
+    background-image: url("https://www.itl.cat/pngfile/big/104-1042826_funky-wallpaper-cool-simple-backgrounds.jpg");
+    h2{
+        color: yellow;
+    }
+    h4{
+        color: white;
+    }
+}
+
+.modal-header{
+    border-radius: 20px 20px 0px 0px;
+}
+
+@media only screen and (max-width: 650px){
+    .jumbotron{
+        margin-top: 35px;
+        height: 220px;
+        .jumbocont{
+            height: 155px;
+        }
+    }
+
+    .leftcol1{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        img{
+            width: 250px;
+            height: 230px;
+            margin-left: 65px;
+        }
+    }
+
+    .leftcol1:hover{
+        height: 318px;
+        img{
+            height: 240px;
+            width: 260px;
+        }
+        button{
+            margin-left: 140px;
+        }
+    }
+
+    .rightcol1{
+        margin-left: 0px;
+        img{
+            width: 250px;
+            height: 230px;
+            margin-left: 65px;
+        }
+    }
+
+    .rightcol1:hover{
+        height: 318px;
+        img{
+            height: 240px;
+            width: 260px;
+        }
+        button{
+            margin-left: 150px;
+        }
+    }
+
+    .leftcol2{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        img{
+            width: 240px;
+            height: 230px;
+            margin-left: 70px;
+        }
+    }
+
+    .leftcol2:hover{
+        height: 318px;
+        img{
+            height: 220px;
+            width: 240px;
+        }
+        button{
+            display: block;
+            margin-left: 140px;
+        }
+    }
+
+    .rightcol2{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 8px;
+        img{
+            width: 230px;
+            height: 230px;
+            margin-left: 75px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .rightcol2:hover{
+        height: 318px;
+        img{
+            height: 250px;
+            width: 230px;
+        }
+        button{
+            margin-left: 145px;
+        }
+        margin-bottom: 5px;
+    }
+
+    .lastcol{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 8px;
+        img{
+            width: 230px;
+            height: 230px;
+            margin-left: 70px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .lastcol:hover{
+        height: 318px;
+        img{
+            height: 250px;
+            width: 230px;
+        }
+        button{
+            margin-left: 145px;
+        }
+        margin-bottom: 5px;
+    }
+
+}

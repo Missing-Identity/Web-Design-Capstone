@@ -26,19 +26,30 @@ summary {
   font-weight: 700;
   color: black; }
 
-.FirstT img {
-  background-color: grey;
-  border-radius: 50%;
-  height: 245px;
-  width: 225px; }
+.facultycontent {
+  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px solid yellow; }
 
-.FirstT h2 {
-  color: red;
-  margin-left: 10px; }
+.FirstT {
+  margin-bottom: 15px; }
+  .FirstT img {
+    background-color: grey;
+    border-radius: 50%;
+    height: 245px;
+    width: 225px;
+    margin-left: 16%;
+    border: 3px solid #ec4d81; }
+  .FirstT h2 {
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 25px; }
 
 .FirstT2 {
   padding: 4%;
-  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
   border-radius: 25px;
   margin-bottom: 15px; }
   .FirstT2 img {
@@ -55,18 +66,23 @@ summary {
       color: #97388a;
       line-height: 45px; }
 
-.SecondT img {
-  background-color: grey;
-  border-radius: 50%;
-  height: 245px;
-  width: 225px; }
-
-.SecondT h2 {
-  color: red; }
+.SecondT {
+  margin-bottom: 15px; }
+  .SecondT img {
+    background-color: grey;
+    border-radius: 50%;
+    height: 245px;
+    width: 225px;
+    margin-left: 16%;
+    border: 3px solid #ec4d81; }
+  .SecondT h2 {
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 25px; }
 
 .SecondT2 {
   padding: 4%;
-  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
   border-radius: 25px;
   margin-bottom: 15px; }
   .SecondT2 img {
@@ -83,19 +99,24 @@ summary {
       color: #97388a;
       line-height: 45px; }
 
-.ThirdT img {
-  background-color: grey;
-  border-radius: 50%;
-  height: 245px;
-  width: 225px; }
-
-.ThirdT h2 {
-  color: red;
-  margin-left: 15px; }
+.ThirdT {
+  margin-bottom: 15px; }
+  .ThirdT img {
+    background-color: grey;
+    border-radius: 50%;
+    height: 245px;
+    width: 225px;
+    margin-left: 18%;
+    border: 3px solid #ec4d81; }
+  .ThirdT h2 {
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 25px; }
 
 .ThirdT2 {
   padding: 4%;
-  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
   border-radius: 25px;
   margin-bottom: 15px; }
   .ThirdT2 img {
@@ -112,19 +133,24 @@ summary {
       color: #97388a;
       line-height: 45px; }
 
-.FourthT img {
-  background-color: grey;
-  border-radius: 50%;
-  height: 245px;
-  width: 225px; }
-
-.FourthT h2 {
-  color: red;
-  margin-left: 20px; }
+.FourthT {
+  margin-bottom: 15px; }
+  .FourthT img {
+    background-color: grey;
+    border-radius: 50%;
+    height: 245px;
+    width: 225px;
+    margin-left: 18%;
+    border: 3px solid #ec4d81; }
+  .FourthT h2 {
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 25px;
+    margin-left: 20px; }
 
 .FourthT2 {
   padding: 4%;
-  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
   border-radius: 25px;
   margin-bottom: 15px; }
   .FourthT2 img {
@@ -141,19 +167,24 @@ summary {
       color: #97388a;
       line-height: 45px; }
 
-.FifthT img {
-  background-color: grey;
-  border-radius: 50%;
-  height: 245px;
-  width: 225px; }
-
-.FifthT h2 {
-  color: red;
-  margin-left: 30px; }
+.FifthT {
+  margin-bottom: 15px; }
+  .FifthT img {
+    background-color: grey;
+    border-radius: 50%;
+    height: 245px;
+    width: 225px;
+    margin-left: 18%;
+    border: 3px solid #ec4d81; }
+  .FifthT h2 {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    border-radius: 25px;
+    color: white;
+    margin-left: 30px; }
 
 .FifthT2 {
   padding: 4%;
-  background-image: url("https://st.depositphotos.com/2099371/2170/v/450/depositphotos_21703913-stock-illustration-seamless-pattern-with-circles-and.jpg");
   border-radius: 25px;
   margin-bottom: 15px; }
   .FifthT2 img {
@@ -171,8 +202,7 @@ summary {
       line-height: 45px; }
 
 .row {
-  margin-bottom: 15px;
-  border-bottom: 3px solid white; }
+  margin-bottom: 25px; }
 
 @media only screen and (max-width: 650px) {
   body {
@@ -189,13 +219,28 @@ summary {
     overflow: auto; }
   .table-wrapper-scroll-y {
     display: block; }
-  .FirstT h2 {
-    margin-left: 21%; }
   .FirstT img {
-    margin-left: 20%; }
+    margin-left: 18%;
+    margin-top: 3%; }
   .FirstT2 h2 {
     border-radius: 15px 15px 15px 15px; }
   .SecondT h2 {
-    margin-left: 19%; }
+    margin-left: 2%; }
   .SecondT img {
-    margin-left: 20%; } }
+    margin-left: 18%;
+    margin-top: 3%; }
+  .ThirdT h2 {
+    margin-left: 2%; }
+  .ThirdT img {
+    margin-left: 18%;
+    margin-top: 3%; }
+  .FourthT h2 {
+    margin-left: 2%; }
+  .FourthT img {
+    margin-left: 18%;
+    margin-top: 3%; }
+  .FifthT h2 {
+    margin-left: 2%; }
+  .FifthT img {
+    margin-left: 18%;
+    margin-top: 3%; } }

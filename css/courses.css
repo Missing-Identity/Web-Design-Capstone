@@ -225,7 +225,12 @@
   margin-top: 15%; }
 
 .modal-content {
-  border-radius: 20px; }
+  border-radius: 20px;
+  background-image: url("https://www.itl.cat/pngfile/big/104-1042826_funky-wallpaper-cool-simple-backgrounds.jpg"); }
+  .modal-content h2 {
+    color: yellow; }
+  .modal-content h4 {
+    color: white; }
 
 .modal-header {
   border-radius: 20px 20px 0px 0px; }

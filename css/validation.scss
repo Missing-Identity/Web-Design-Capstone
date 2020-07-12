@@ -1,0 +1,90 @@
+.navbar-dark{
+    background-image: linear-gradient(rgb(253,247,51), rgb(128, 0, 0));
+    border-bottom: 1px inset gray;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar .nav-link{
+    color: rgb(54, 37, 1) !important;
+}
+
+.navbar .nav-link:hover{
+    color: white !important;
+}
+
+.jumbotron{
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/75/55/bookshelve-with-books-background-library-vector-20657555.jpg");
+    height: 230px;
+    .jumbocont{
+        background-color: rgba(128, 0, 0,0.6);
+        border-radius: 25px;
+        height: 120px;
+    }
+    h1{
+        color: white !important;
+    }
+    p{
+        color: yellow !important;
+        font-weight: 600;
+    }
+}
+
+.maincont{
+    background-color: white;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 25px;
+    h2{
+        color: red;
+    }
+}
+
+#MainCarousel{
+    height: 1000px;
+    margin-bottom: 5%;
+    img{
+        height: 1000px;
+        width: 1300px;
+        border-radius: 25px !important;
+    }
+
+    .npbtn{
+        span{
+            background-color: black;
+            border-radius: 25px;
+        }
+    }
+}
+
+footer{
+    background-image: url("https://www.rarewoodsusa.com/wp-content/uploads/2018/08/mahogany-brazil-1000x500.jpg");
+    color: white;
+    padding: 10px;
+    a{
+        margin: 20px;
+        text-decoration: none !important;
+        .gh{
+            color: black;
+        }
+        .fb{
+            color: darkblue;
+        }
+        .gh:hover{
+            color: rgb(67,57,191);
+        }
+        .fb:hover{
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 650px){
+
+    .jumbotron{
+        margin-top: 35px;
+        height: 190px;
+        .jumbocont{
+            height: 120px;
+        }
+    }
+}

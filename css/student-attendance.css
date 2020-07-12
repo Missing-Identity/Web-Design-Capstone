@@ -1,3 +1,10 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+  body h1 {
+    font-family: 'Baloo Da 2', cursive; }
+  body thead {
+    font-family: 'Baloo Da 2', cursive; }
+
 .navbar-dark {
   background-image: linear-gradient(#f5f2eb, #48a9a7);
   border-bottom: 1px inset gray;

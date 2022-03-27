@@ -28,6 +28,6 @@
     "parallelshell": "^3.0.1"
   },
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }

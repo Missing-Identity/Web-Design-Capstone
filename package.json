@@ -29,5 +29,10 @@
   },
   "dependencies": {
     "minimist": "^1.2.5"
+  },
+  "overrides": {
+    "axios": "^1.13.2",
+    "lodash": "4.17.21",
+    "lodash.template": "4.17.21"
   }
 }
